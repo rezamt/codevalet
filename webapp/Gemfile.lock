@@ -19,7 +19,8 @@ GEM
     hashie (3.5.7)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    kramdown (1.16.2)
+    kramdown (2.3.0)
+      rexml
     minitest (5.11.3)
     multipart-post (2.0.0)
     mustermann (1.0.2)
@@ -32,6 +33,7 @@ GEM
       rack (>= 0.4)
     rack-protection (2.0.1)
       rack
+    rexml (3.2.4)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
